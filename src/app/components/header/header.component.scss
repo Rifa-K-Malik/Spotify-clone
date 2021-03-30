@@ -1,0 +1,26 @@
+.header{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    width: 100%;
+    color: white;
+    padding: 20px 0px;
+
+}
+.logo{
+    img{
+        height: 50px;
+    }
+}
+.option{
+   
+    gap: 30px;
+    &:hover{
+        text-decoration: underline;
+        color: rgb(228, 217, 217);
+    }
+    
+}
+
