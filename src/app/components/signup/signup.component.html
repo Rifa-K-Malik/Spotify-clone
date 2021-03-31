@@ -1,1 +1,67 @@
-<p>signup works!</p>
+<div>
+    <div class="logo">
+        <img src="assets/img/logo3.png" alt="">
+        <div class="heading">
+            <h1>Sign up for free to start listening</h1>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="btn">
+            <p>
+                <button mat-flat-button class="facebook-btn">
+                    SIGN UP WITH FACEBOOK
+                </button>
+            </p>
+        </div>
+        <p>
+            <span class="gray">-------------------------------------- or --------------------------------------</span>
+        </p>
+
+        <div class="text-left">
+
+            <p class="heading mb-0">Whats your email?</p>
+            <mat-form-field class="mff-width pb-0" appearance="outline">
+                <mat-label>Email your email</mat-label>
+                <input matInput>
+            </mat-form-field>
+
+            <p class="clrgreen">
+                Use phone number insted.
+            </p>
+
+            <p class="heading mb-0">Confirm your email</p>
+            <mat-form-field class="mff-width" appearance="outline">
+                <mat-label>Enter your email again.</mat-label>
+                <input matInput>
+            </mat-form-field>
+
+            <p class="heading mb-0">Create a password</p>
+            <mat-form-field class="mff-width" appearance="outline">
+                <mat-label>Create a password.</mat-label>
+                <input matInput>
+            </mat-form-field>
+
+            <p class="heading mb-0">What should we call you?</p>
+            <mat-form-field class="mff-width" appearance="outline">
+                <mat-label>Enter a profile name.</mat-label>
+                <input matInput>
+            </mat-form-field>
+            <p> This appears on your profile</p>
+        </div>
+        <div class="heading">
+            <span> <input type="checkbox"> Share my registration data with Spotify's content providers for marketing purposes.</span>
+        </div>
+
+        <button mat-flat-button class="signup-btn mb-4" [routerLink]="['/signup']">
+            SIGN UP
+        </button>
+        <p class="heading">
+            Have an account? <span class="cgrnuln"> Log in.</span>
+        </p>
+
+    </div>
+
+
+</div>

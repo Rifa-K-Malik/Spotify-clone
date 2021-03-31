@@ -1,1 +1,81 @@
-<p>signin works!</p>
+<div>
+    <div class="logo">
+        <img src="assets/img/logo3.png" alt="">
+    </div>
+    <hr>
+    <div class="container">
+        <p class="heading">
+            To continue, log in to Spotify.
+        </p>
+
+        <div class="btn">
+            <p>
+                <button mat-flat-button class="facebook-btn">
+                    <img src="assets/img/fb2.webp" alt="">
+                    CONTINUE WITH FACEBOOK
+                </button>
+            </p>
+
+            <p>
+                <button mat-flat-button class="apple-btn">
+                    <img src="assets/img/ap.png" alt="">
+                    CONTINUE WITH APPLE
+                </button>
+            </p>
+
+            <p>
+                <button mat-flat-button class="google-btn">
+                    <img src="assets/img/gogl.jpg" alt="">
+                    CONTINUE WITH GOOGLE
+                </button>
+            </p>
+
+            <p>
+                <button mat-flat-button class="phn-btn">
+                    CONTINUE WITH PHONE NUMBER
+                </button>
+            </p>
+        </div>
+        <p>
+            <span class="gray">-------------------------------------- </span>
+            <span class="heading"> OR </span>
+            <span class="gray">--------------------------------------</span>
+        </p>
+
+        <div class="text-left">
+
+            <p class="heading mb-0">Email address or username</p>
+            <mat-form-field class="mff-width" appearance="outline">
+                <mat-label>Email address or username</mat-label>
+                <input matInput>
+            </mat-form-field>
+
+            <p class="heading mb-0">Password</p>
+            <mat-form-field class="mff-width" appearance="outline">
+                <mat-label>Password</mat-label>
+                <input matInput>
+            </mat-form-field>
+
+            <p class="frgt-pass">Forgot your password?</p>
+
+            <div class="d-flex justify-content-between mt-5 align-items-center">
+                <span> <input type="checkbox"> Remember me</span>
+                <button mat-flat-button class="btn-login">
+                    LOG IN
+                </button>
+            </div>
+        </div>
+        <hr>
+
+    <p class="heading">
+        Don't have an account?
+    </p>
+    <button mat-flat-button class="signup-btn" [routerLink]="['/signup']">
+        SIGN UP FOR SPOTIFY
+    </button>
+    <hr>
+
+    </div>
+
+
+</div>
