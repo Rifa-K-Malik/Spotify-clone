@@ -1,0 +1,49 @@
+.footer{
+    background-color: black;
+    padding: 50px 120px;
+    cursor: pointer;
+}
+.div1{
+    img{
+        height: 70px
+        ;
+    }
+}
+
+.div2{
+    color: white;
+    font-weight: 500;
+    margin-top: 10px;
+    p{
+        color: gray;
+    }
+    ul{
+        list-style: none;
+        padding-left: 0;
+        li{
+            line-height: 50px;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.socialimg{
+    text-align: right;
+    img{
+        height: 50px;
+        margin: 5px;
+    }
+}
+
+.fbottom{
+    margin-top: 20px;
+    color: gray;
+    span{
+        margin-right: 20px;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

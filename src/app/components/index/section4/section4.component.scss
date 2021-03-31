@@ -22,3 +22,30 @@
     margin: 0px 10px;
     padding: 30px;
 }
+
+.expand{
+    //   width: 700px;
+      mat-expansion-panel{
+            // background-color: #333;
+            // margin-bottom: 10px;
+            mat-expansion-panel-header{
+                    padding: 30px 24px;
+                    height: 50px;
+                  mat-panel-title{
+                        color:black;
+                        font-size: 18px;
+                        font-weight: 600;
+                  }
+            }
+            p{
+                  color: rgb(97, 97, 97);
+                  line-height: 30px;
+                  text-align: left;
+            }
+            ol{
+                color: rgb(97, 97, 97);
+                text-align: left; 
+                line-height: 30px;
+            }
+      }
+}
