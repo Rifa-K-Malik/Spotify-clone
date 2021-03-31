@@ -1,0 +1,45 @@
+.main{
+    background-color: #6c0ee0;
+    background: linear-gradient(-45deg, #6c0ee0 -5%, #f037a6);
+    height: 600px;
+    overflow: hidden;
+    
+}
+.bg-img{
+   
+    img{
+        background: no-repeat;
+        background-size: 1580px 1068px;
+        background-position: center -138px;
+    }
+    
+}
+.cont{
+    position: absolute;
+    top: 100px;
+    gap: 100px;
+   margin-left: 12%;
+    align-items: center;
+    .img{
+        img{
+            height: 500px;
+        }
+    }
+    .hbtn{
+        h1{
+            color: white;
+            font-weight: bold;
+            font-size: 64px;
+            line-height: 65px;
+        }
+        button{
+            height: 45px;
+            width: 200px;
+            margin-top: 30px;
+            border-radius: 20px;
+            text-align: center;
+            font-weight: bold;
+            border: none;
+        }
+    }
+}

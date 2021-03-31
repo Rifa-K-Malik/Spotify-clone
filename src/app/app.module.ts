@@ -9,6 +9,13 @@ import { SignupComponent } from './components/signup/signup.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { Section1Component } from './components/index/section1/section1.component';
+import { Section2Component } from './components/index/section2/section2.component';
+import { Section3Component } from './components/index/section3/section3.component';
+import { Section4Component } from './components/index/section4/section4.component';
+import { Section5Component } from './components/index/section5/section5.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material/material.module';
 
 @NgModule({
   declarations: [
@@ -18,11 +25,18 @@ import { FooterComponent } from './components/footer/footer.component';
     SignupComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    Section1Component,
+    Section2Component,
+    Section3Component,
+    Section4Component,
+    Section5Component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

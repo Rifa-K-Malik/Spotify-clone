@@ -1,17 +1,17 @@
-<div class="d-flex justify-content-around align-items-center header">
-    <div class = "logo d-flex align-items-center">
-        <div>
-        <img src="assets/img/logo2.png" alt="">
-    </div>
-    <div>
-        <span>Spotify&copy;</span>
-    </div>
+<nav class="d-flex justify-content-around align-items-center header">
+    <div class="logo d-flex align-items-center">
+        <div class="logo-img">
+            <img src="assets/img/logo.png" alt="">
+        </div>
+        <div class="logo-name">
+            <span class="copy">Spotify</span>
+        </div>
     </div>
     <div class="d-flex option">
         <div>Premium</div>
         <div>Support</div>
-        <div>Download</div>
-        <div>Sign up</div>
-        <div>Log in</div>
+        <div>Download</div> |
+        <div [routerLink]="['/signup']">Sign up</div>
+        <div [routerLink]="['/login']">Log in</div>
     </div>
-</div>
+</nav>

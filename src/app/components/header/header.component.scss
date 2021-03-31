@@ -7,20 +7,31 @@
     width: 100%;
     color: white;
     padding: 20px 0px;
+    z-index: 10999;
 
 }
 .logo{
-    img{
-        height: 50px;
+    .logo-img{
+        img{
+            height: 40px;
+            margin-right: 5px;
+        }
     }
+    .logo-name{
+        .copy{
+            font-size: xx-large;
+        }
+    }
+
 }
 .option{
-   
     gap: 30px;
+    div{
+        cursor: pointer;
     &:hover{
         text-decoration: underline;
         color: rgb(228, 217, 217);
     }
-    
+}
 }
 

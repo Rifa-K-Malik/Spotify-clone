@@ -1,0 +1,22 @@
+<div class="sctn2 container">
+    <h1 class="h1">
+        Why Spotify?
+    </h1>
+
+    <div class="d-flex dcon"> 
+        <div  *ngFor="let c of content" class="sctn2main">
+            <div class="mb-3">
+                <img [src]="c.img" alt="">
+            </div>
+            <div>
+                <h4 class="fb" >
+                    {{c.title}}
+                </h4>
+                <p class="clrgfb">
+                    {{c.des}}
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
