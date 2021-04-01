@@ -1,0 +1,34 @@
+.download{
+    background-color: rgb(25, 230, 140);
+    
+}
+
+.container{
+    text-align: center;
+    img{
+        margin-top: 150px;
+        margin-bottom: 50px;
+        height: 100px;
+    }
+    h1{
+        font-weight: bolder;
+        font-size: 40px;
+        color: black;
+        margin-bottom: 50px;
+    }
+    p{
+        font-weight: bold;
+        color: black;
+        letter-spacing: 1px;
+        margin-bottom: 80px;
+    }
+    button{
+        height: 45px;
+        width: 150px;
+        border-radius: 20px;
+        color: black;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        margin-bottom: 150px;
+    }
+}
