@@ -16,6 +16,7 @@ import { Section4Component } from './components/index/section4/section4.componen
 import { Section5Component } from './components/index/section5/section5.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
+import { Index2Component } from './components/index2/index2.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { MaterialModule } from './material/material.module';
     Section2Component,
     Section3Component,
     Section4Component,
-    Section5Component
+    Section5Component,
+    Index2Component
   ],
   imports: [
     BrowserModule,

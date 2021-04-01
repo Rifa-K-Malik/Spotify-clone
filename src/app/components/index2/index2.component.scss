@@ -1,0 +1,38 @@
+.content{
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 846px;
+    background-color: rgb(41, 65, 171);
+}
+
+.container{
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+    padding-top: 200px;
+    
+    h1{
+        font-size: 150px;
+        line-height: 150px;
+        color:#51dd85;
+        font-weight: bold;
+    }
+    p{
+        color:#51dd85;
+        font-size: 18px;
+    }
+    button{
+        height: 45px;
+        width: 200px;
+        margin-top: 30px;
+        border-radius: 20px;
+        text-align: center;
+        font-weight: bold;
+        border: none;
+        background-color: #51dd85;
+        color: rgb(41, 65, 171);
+    }
+}
