@@ -11,7 +11,7 @@
 }
 
 .mff-width{
-    width: 350px;
+    width: 400px;
 }
 .container{
     width: fit-content;
@@ -22,7 +22,7 @@
     }
     .btn{
         button{
-            width: 350px;
+            width: 400px;
             height: 45px;
             border-radius: 20px;
             font-weight: 500;
@@ -40,42 +40,10 @@
         color: white;
         border: none;
     }
-    .apple-btn{
-        background-color: black;
-        color: white;
-        border: none;
-
-    }
-    .google-btn{
-        border: 2px solid gray;
-        color: grey;
-        background-color: white;
-    }
-    .phn-btn{
-        border: 2px solid grey;
-        color: grey;
-        background-color: white;
-    }
-}
-
-.frgt-pass{
-    text-decoration: underline;
-    font-weight: 500;
-    color: grey;
-}
-
-.btn-login{
-    width: 150px;
-    height: 40px;
-    background-color: green;
-    border-radius: 20px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    color: white;
 }
 
 .signup-btn{
-    width: 350px;
+    width: 400px;
     height: 45px;
     border-radius: 20px;
     font-weight: 500;
@@ -92,4 +60,30 @@
 .cgrnuln{
     color: rgb(32, 179, 81);
     text-decoration: underline; 
+}
+
+.chkbox{
+    margin: 20px 0px;
+    text-align: left;
+}
+
+.fsizesml{
+    font-size: 12px;
+}
+
+.w{
+    width: 400px;
+}
+.year{
+    width: 130px;
+    margin-right: 10px;
+}
+
+.month{
+width: 150px;
+margin-right: 10px;
+}
+
+.day{
+    width: 100px;
 }

@@ -49,18 +49,71 @@
                 <input matInput>
             </mat-form-field>
             <p> This appears on your profile</p>
-        </div>
-        <div class="heading">
-            <span> <input type="checkbox"> Share my registration data with Spotify's content providers for marketing purposes.</span>
+
+            <p class="heading mt-4">What's your date of birth?</p>
+            <div class="d-flex">
+                <div>
+                    <p class="mb-0">Year</p>
+                    <mat-form-field class="year" appearance="outline">
+                        <mat-label>YYYY</mat-label>
+                        <input matInput>
+                    </mat-form-field>
+                </div>
+                <div>
+                    <p class="mb-0">Month</p>
+                    <mat-form-field class="month" appearance="outline">
+                        <mat-label>Month</mat-label>
+                        <input matInput>
+                    </mat-form-field>
+                </div>
+                <div>
+                    <p class="mb-0">Day</p>
+                    <mat-form-field class="day" appearance="outline">
+                        <mat-label>DD</mat-label>
+                        <input matInput>
+                    </mat-form-field>
+                </div>
+            </div>
+
+            <p class="heading">What's your gender?</p>
+            <mat-radio-group aria-label="Select an option">
+                <mat-radio-button value="1" class="mr-5">Male</mat-radio-button>
+                <mat-radio-button value="2">Female</mat-radio-button>
+              </mat-radio-group>
+
+
+
+
+
         </div>
 
-        <button mat-flat-button class="signup-btn mb-4" [routerLink]="['/signup']">
-            SIGN UP
-        </button>
-        <p class="heading">
-            Have an account? <span class="cgrnuln"> Log in.</span>
-        </p>
 
+
+
+
+
+        <div class="w">
+            <div class="chkbox">
+                <input type="checkbox"><span> Share my registration data with Spotify's content providers for marketing
+                    purposes.</span>
+            </div>
+
+            <div class="fsizesml mb-3">By clicking on Sign up, you agree to Spotify's <span class="cgrnuln"> Terms and
+                    Conditions of Use.</span>
+            </div>
+
+            <div class="fsizesml mb-3">
+                To learn more about how Spotify collects, uses, shares and protects your personal data please read
+                Spotify's <span class="cgrnuln"> Privacy Policy. </span>
+            </div>
+
+            <button mat-flat-button class="signup-btn mb-4" [routerLink]="['/signup']">
+                SIGN UP
+            </button>
+            <p class="heading">
+                Have an account? <span class="cgrnuln"> Log in.</span>
+            </p>
+        </div>
     </div>
 
 
