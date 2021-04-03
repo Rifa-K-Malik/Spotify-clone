@@ -1,0 +1,51 @@
+.left{
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    color: white;
+}
+// Top RIGHT CONTENT
+
+.right{
+    height: 100vh;
+    padding-top: 20px;
+    color: rgb(190, 190, 190);
+    background-color: rgb(53, 47, 47);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    h2{
+        color: white;
+    }
+    h3{
+        line-height: 20px;
+        font-weight: 500;
+
+    }
+    .btn{
+        button{
+            width: 100%;
+            height: 45px;
+            border-radius: 20px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            img{
+                margin-right: 5px;
+                height: 20px;
+            }
+        }
+    
+    }
+    
+    .facebook-btn{
+        background-color: #3b5998;
+        color: white;
+        border: none;
+    }
+    p{
+        font-weight: 500;
+    }
+}

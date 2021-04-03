@@ -20,6 +20,7 @@ import { Index2Component } from './components/index2/index2.component';
 import { DownloadComponent } from './components/download/download.component';
 import { AppsigninComponent } from './components/appsignin/appsignin.component';
 import { AppmainComponent } from './components/appmain/appmain.component';
+import { HomesectionComponent } from './components/home/homesection/homesection.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { AppmainComponent } from './components/appmain/appmain.component';
     Index2Component,
     DownloadComponent,
     AppsigninComponent,
-    AppmainComponent
+    AppmainComponent,
+    HomesectionComponent
   ],
   imports: [
     BrowserModule,

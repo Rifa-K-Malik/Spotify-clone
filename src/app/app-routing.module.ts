@@ -44,8 +44,12 @@ const routes: Routes = [
     component: AppsigninComponent
   },
   {
-    path: 'main',
+    path: 'viewall',
     component: AppmainComponent
+  },
+  {
+    path: 'home',
+    component: HomeComponent
   }
   
 ];
