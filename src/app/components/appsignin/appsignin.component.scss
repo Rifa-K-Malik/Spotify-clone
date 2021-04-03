@@ -1,0 +1,71 @@
+.main{
+    padding-top: 20px;
+}
+.container{
+    background-color: black;
+    padding: 30px 50px;
+    margin: auto;
+    width: 450px;
+    color: white;
+
+    .header{
+        img{
+            height: 70px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+    }
+
+    .value{
+        input{
+            width: 100%;
+            height: 45px;
+            border: none;
+            border-radius: 5px;
+            margin: 10px 0px;
+            padding-left: 10px;
+            outline: none;
+           
+        }
+        .reset{
+            text-decoration: underline;
+         
+        }
+        .login-btn{
+            width: 100%;
+            height: 45px;
+            background-color: white;
+            color: black;
+            border-radius: 20px;
+            border: none;
+            margin-bottom: 10px;
+    
+        }
+
+    }
+
+    .bottom{
+        .fb-btn{
+            width: 100%;
+            height: 45px;
+            background-color: black;
+            border-radius: 20px;
+            border: 2px solid white;
+            color: white;
+            margin-bottom: 10px;
+        }
+        .no-account{
+            letter-spacing: 2px;
+        }
+        .set{
+            font-weight: 400;
+            letter-spacing: 1px;
+        }
+    }
+
+}

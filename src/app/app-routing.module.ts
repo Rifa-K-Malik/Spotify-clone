@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { AppmainComponent } from './components/appmain/appmain.component';
+import { AppsigninComponent } from './components/appsignin/appsignin.component';
 import { DownloadComponent } from './components/download/download.component';
 import { HomeComponent } from './components/home/home.component';
 import { IndexComponent } from './components/index/index.component';
@@ -36,7 +38,16 @@ const routes: Routes = [
   {
     path: 'download',
     component: DownloadComponent
+  },
+  {
+    path: 'applogin',
+    component: AppsigninComponent
+  },
+  {
+    path: 'main',
+    component: AppmainComponent
   }
+  
 ];
 
 @NgModule({
