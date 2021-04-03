@@ -1,27 +1,61 @@
 <div class="container-fluid">
     <div class="row top">
         <div class="col-2 left">
-            <div>
-                <mat-icon>more_horiz</mat-icon>
-                <span class="material-icons">
-                    home
-                    </span>
 
-                    <span class="material-icons">
-                        search
-                        </span>
-                        <span class="material-icons">
-                            add_box
-                            </span>
-                            <span class="material-icons">
-                                favorite
-                                </span><span class="material-icons">
-                                    video_library
-                                    </span>
+            <div class="left-options">
+                <mat-icon>
+                    more_horiz
+                </mat-icon>
             </div>
+            <div class="left-options">
+                <mat-icon>
+                    home
+                </mat-icon> <span>Home</span>
+            </div>
+            <div class="left-options">
+                <mat-icon>
+                    search
+                </mat-icon> <span>Search</span>
+            </div>
+            <div class="left-options">
+                <mat-icon>
+                    video_library
+                </mat-icon><span>Your Library</span>
+            </div>
+            <p class="mt-4">PLAYLISTS</p>
+            <div class="left-options">
+                <mat-icon>
+                    add_box
+                </mat-icon> <span>Create Playlist</span>
+            </div>
+            <div class="left-options">
+                <mat-icon>
+                    favorite
+                </mat-icon> <span>Liked Songs</span>
+            </div>
+            <hr>
+
         </div>
         <div class="col-7 mid">
+            <div class="mid-top">
+                <div class="button-arrow">
+                    <button mat-mini-fab>
+                        <mat-icon> chevron_left</mat-icon>
+                    </button>
+                    <button mat-mini-fab>
+                        <mat-icon>chevron_right</mat-icon>
+                    </button>
 
+                </div>
+                <div class="btn-upgrade">
+                    <button mat-flat-button class="u-btn">
+                        UPGRADE
+                    </button>
+                </div>
+            </div>
+            <div>
+               <app-homesection></app-homesection>>
+            </div>
         </div>
         <div class="col-3 right">
             <h2>

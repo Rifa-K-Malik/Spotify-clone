@@ -1,1 +1,40 @@
-<p>homesection works!</p>
+<div class="songs">
+    <div class="songs-cat" *ngFor="let song of songs">
+        <h2 class="mb-0">Shows to try {{song.heading}}</h2>
+        <div class="d-flex justify-content-between">
+            <p>Podcasts we think you'ii get hooked on.{{song.subheader}}</p>
+            <span>SEE ALL</span>
+        </div>
+        
+        <div class="d-flex c-cart">
+        <div class="card">
+            <img class="card-img-top" src="assets/img/song1.png{{song.img}}" alt="Card image cap">
+            <div class="card-body">
+                <h3 class="card-title">Card title{{song.songtitle}}</h3>
+                <p class="card-text">{{song.bandname}}</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="assets/img/i1.png" alt="Card image cap">
+            <div class="card-body">
+                <h3 class="card-title">Card title chjglinb xsrtyuipokljnmbvtyiuojm</h3>
+                <p class="card-text">Some </p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="assets/img/i1.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some </p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="assets/img/i1.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some </p>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

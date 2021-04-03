@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./homesection.component.scss']
 })
 export class HomesectionComponent implements OnInit {
+  songs: any[];
 
   constructor() { }
 
   ngOnInit(): void {
+    // this.array();
   }
+// array()=[
+//   this.songs()={
 
+//   }
+// ]
 }

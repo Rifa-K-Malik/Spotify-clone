@@ -1,11 +1,69 @@
+
+
+
+
+
+
+// LEFT CONTENT 
+
 .left{
     background-color: black;
-    position: fixed;
+    position: sticky;
     top: 0px;
     left: 0px;
     height: 100vh;
     color: white;
+    padding-top: 20px;
+    .left-options{
+        display: flex;
+        align-items: center;
+        padding: 10px 5px;
+        width: 100%;
+        cursor: pointer;
+        span{
+            margin-left: 20px;
+        }
+        &:hover{
+            background-color: rgb(53, 47, 47);
+        }
+    }
 }
+
+
+
+
+// MIDDLE CONTENT 
+
+.mid{
+padding: 20px;
+width: 100%;
+background-color: rgb(29, 27, 27);;
+.mid-top{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 55%;
+    .button-arrow{
+        button{
+            background-color: black;
+            color: white;
+            margin-right: 10px;
+        }
+    }
+    .btn-upgrade{
+        button{
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+            font-weight: bold;
+            letter-spacing: 1px;
+            width: 150px;
+            border-radius: 20px;
+        }
+    }
+}
+}
+
 // Top RIGHT CONTENT
 
 .right{
@@ -13,7 +71,7 @@
     padding-top: 20px;
     color: rgb(190, 190, 190);
     background-color: rgb(53, 47, 47);
-    position: fixed;
+    position: sticky;
     top: 0px;
     right: 0px;
     h2{
