@@ -1,0 +1,15 @@
+<div class="songs">
+    <div class="songs-cat">
+        <h1 class="mb-3">The Top Podcast of 2020</h1>
+
+        <div class="c-cart">
+            <div class="card" *ngFor="let card of cards">
+                <img class="card-img-top" [src]="card.img" alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="card-title">{{card.songtitle}}</h3>
+                    <p class="card-text">{{card.bandname}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

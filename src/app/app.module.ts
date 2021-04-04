@@ -19,8 +19,9 @@ import { MaterialModule } from './material/material.module';
 import { Index2Component } from './components/index2/index2.component';
 import { DownloadComponent } from './components/download/download.component';
 import { AppsigninComponent } from './components/appsignin/appsignin.component';
-import { AppmainComponent } from './components/appmain/appmain.component';
 import { HomesectionComponent } from './components/home/homesection/homesection.component';
+import { ViewallComponent } from './components/home/viewall/viewall.component';
+import { PlaysongComponent } from './components/home/playsong/playsong.component';
 
 @NgModule({
   declarations: [
@@ -39,8 +40,9 @@ import { HomesectionComponent } from './components/home/homesection/homesection.
     Index2Component,
     DownloadComponent,
     AppsigninComponent,
-    AppmainComponent,
-    HomesectionComponent
+    HomesectionComponent,
+    ViewallComponent,
+    PlaysongComponent
   ],
   imports: [
     BrowserModule,

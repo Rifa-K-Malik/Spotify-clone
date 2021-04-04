@@ -1,10 +1,14 @@
 .songs{
     color: white;
     margin-top: 60px;
+    
     .c-cart{
-        gap: 20px;
         .card{
+            float: left;
+            margin-right: 5px;
+            margin-bottom: 20px;
             width: 180px;
+            height: 250px;
             background-color: rgb(36, 34, 34);
             .card-img-top{
                 height: 170px;
@@ -30,11 +34,4 @@
         }
     }
     
-}
-
-.span{
-    cursor: pointer;
-    &:hover{
-        text-decoration: underline;
-    }
 }
