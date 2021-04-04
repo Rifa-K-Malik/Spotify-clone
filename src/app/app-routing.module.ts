@@ -4,6 +4,7 @@ import { AppsigninComponent } from './components/appsignin/appsignin.component';
 import { DownloadComponent } from './components/download/download.component';
 import { HomeComponent } from './components/home/home.component';
 import { HomesectionComponent } from './components/home/homesection/homesection.component';
+import { PlaysongComponent } from './components/home/playsong/playsong.component';
 import { ViewallComponent } from './components/home/viewall/viewall.component';
 import { IndexComponent } from './components/index/index.component';
 import { Index2Component } from './components/index2/index2.component';
@@ -49,17 +50,16 @@ const routes: Routes = [
     component: HomeComponent,
     children:[
       {
-        path: '',
-        redirectTo : 'songs',
-        pathMatch: 'full'
-      },
-      {
         path: 'songs',
         component: HomesectionComponent
       },
       {
         path: 'view',
         component: ViewallComponent
+      },
+      {
+        path: 'play',
+        component: PlaysongComponent
       }
     ]
   }
